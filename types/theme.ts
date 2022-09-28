@@ -7,9 +7,9 @@ interface Typography {
 export interface ThemeInterface {
     colors: {
         orange: string;
-        green: string;
+        darkGreen: string;
+        lightGreen: string;
         black: string;
-        blue: string;
         white: string;
     };
     typography: {
@@ -18,7 +18,10 @@ export interface ThemeInterface {
         header: Typography;
         headerBold: Typography;
         large: Typography;
+        largeBold: Typography;
         caption: Typography;
+        subheader: Typography;
+        subheaderBold: Typography;
     }
 }
 

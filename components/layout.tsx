@@ -1,5 +1,9 @@
-import { FC } from "react";
-
-export const Layout: FC<{}> = ({ children }) => {
-  return <>{children}</>;
-};
+import { Header } from "./";
+export function Layout({ children }) {
+  return (
+    <>
+      <Header />
+      {children}
+    </>
+  );
+}
